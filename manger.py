@@ -4,7 +4,7 @@ from flask_script import Manager
 from flask_migrate import Migrate,MigrateCommand  
 from Start import app,db
 
-from Model import Users 
+from Model import Users,Tags 
   
 manager= Manager(app)  
   
